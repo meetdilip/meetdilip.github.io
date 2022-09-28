@@ -1,0 +1,286 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.myname {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.myhello {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.subhero {
+    
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+
+  .mybutton {
+   
+    
+    padding: 15px 20px;
+   
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+
+    background: rgba(102, 167, 253, 0);
+    border: 1px white solid;
+    color: white;
+  }
+  
+
+  .mybutton:hover {
+
+    background: rgb(19, 240, 203);
+    border: 1px white solid;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+  .mybutton2 {
+   
+    
+    padding: 15px 20px;
+   
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+
+    background: rgba(102, 167, 253, 0.801);
+    border: 1px white solid;
+    color: white;
+  }
+  
+
+  .mybutton2:hover {
+
+    background: rgba(19, 240, 203, 0);
+    border: 1px rgb(19, 240, 203) solid;
+    color: rgb(0, 0, 0);
+  }
+
+  
+
+  .mart25 {
+
+    margin-top: 50px;
+  }
+
+
+  .mart75 {
+
+    margin-top: 75px;
+  }
+
+
+
+  .padt25 {
+    padding-top: 70px;
+  }
+  
+.herotxt {
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-weight: bold;
+
+    
+}
+
+
+.services {
+
+  padding-top: 75px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sub1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+.righto {
+  text-align: right;
+  padding: 15px;
+}
+
+
+.extserv {
+
+  padding-top: 25px;
+  padding-bottom: 50px;
+ 
+  
+}
+
+
+.mytools {
+
+  padding-top: 50px;
+  padding-bottom: 110px;
+ 
+}
+
+.icon {
+
+   font-size: 5rem;
+   text-align: center;
+   color: #8293ff;
+
+}
+
+.abt {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.textcntr {
+
+  text-align: justify;
+
+}
+
+
+.kalar:hover {
+
+  color: #162cbe;
+  
+}
+
+.basecolour {
+
+  color: #8293ff;
+}
+
+
+
+.container {
+  overflow: hidden;
+}
+.container .slider {
+  animation: slidein 30s linear infinite;
+  white-space: nowrap;
+  
+}
+.container .slider .logos {
+  width: 100%;
+  display: inline-block;
+  margin: 0px 0;
+  
+}
+.container .slider .logos .fab {
+  width: calc(100% / 5);
+  animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* md */
+
+@media only screen and (max-width: 768px) {
+    .herotxt {
+
+        position: absolute;
+        top: 40%;
+        left: 10%;
+         
+    }
+
+    .textcntr {
+      
+      text-align: justify;
+  
+    }
+
+    .mytools {
+
+      padding-top: 50px;
+      padding-bottom: 50px;
+     
+    }
+
+
+    
+  }
+
+  /* sm */
+
+@media only screen and (max-width: 576px) {
+
+  .textcntr {
+    
+    text-align: justify;
+  
+  }
+
+  .social {
+
+    display: none;
+  
+}
+
+
+.mytools {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+ 
+}
+   
+   
+
+  
+
+  .bgn {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    width: 100%;
+    height:100vh;
+
+  }
+
+
+  .sect2 {
+
+    padding-top: 75px;
+    padding-bottom: 100px;
+   
+    
+  }
